@@ -1,0 +1,95 @@
+- .env
+- .gitignore
+- backend
+  - controllers
+    - auth.controller.js
+    - message.controller.js
+    - user.controller.js
+  - db
+    - connectToMongoDB.js
+  - middleware
+    - protectRoute.js
+  - models
+    - conversation.model.js
+    - message.model.js
+    - user.model.js
+  - routes
+    - auth.routes.js
+    - message.routes.js
+    - user.routes.js
+  - server.js
+  - socket
+    - socket.js
+  - utils
+    - generateToken.js
+- frontend
+  - .eslintrc.cjs
+  - dist
+    - assets
+      - index-N_Sbj-TG.js
+      - index-uWxWLo0F.css
+      - notification-KoQ3t5UR.mp3
+    - bg.png
+    - index.html
+    - vite.svg
+  - index.html
+  - package-lock.json
+  - package.json
+  - postcss.config.js
+  - public
+    - bg.jpg
+    - vite.svg
+  - README.md
+  - src
+    - App.css
+    - App.jsx
+    - assets
+      - react.svg
+      - sounds
+        - notification.mp3
+    - components
+      - messages
+        - Message.jsx
+        - MessageContainer.jsx
+        - MessageInput.jsx
+        - Messages.jsx
+      - sidebar
+        - Conversation.jsx
+        - Conversations.jsx
+        - LogoutButton.jsx
+        - SearchInput.jsx
+        - Sidebar.jsx
+      - skeletons
+        - MessageSkeleton.jsx
+    - context
+      - AuthContext.jsx
+      - SocketContext.jsx
+    - hooks
+      - useGetConversations.js
+      - useGetMessages.js
+      - useListenMessages.js
+      - useLogin.js
+      - useLogout.js
+      - useSendMessage.js
+      - useSignup.js
+    - index.css
+    - main.jsx
+    - pages
+      - home
+        - Home.jsx
+      - login
+        - Login.jsx
+      - signup
+        - GenderCheckbox.jsx
+        - SignUp.jsx
+    - utils
+      - emojis.js
+      - extractTime.js
+    - zustand
+      - useConversation.js
+  - tailwind.config.js
+  - vite.config.js
+- LICENSE
+- package-lock.json
+- package.json
+- README.md
