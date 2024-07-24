@@ -3,12 +3,13 @@ import Sidebar from "../../components/sidebar/Sidebar";
 
 const Home = () => {
     return (
-        <div className='flex h-screen bg-gray-100'>
-            <div className='flex w-full max-w-6xl mx-auto my-4 rounded-xl overflow-hidden shadow-2xl bg-white'>
+        <div className='flex h-screen w-full max-w-6xl mx-auto'>
+            <div className='flex w-full rounded-xl overflow-hidden shadow-2xl bg-gray-800'>
                 <Sidebar />
                 <MessageContainer />
             </div>
         </div>
     );
 };
+
 export default Home;
