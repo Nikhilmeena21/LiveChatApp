@@ -30,7 +30,3 @@ const MessageInput = () => {
 export default MessageInput;
 
 
-
-export default MessageInput;
-
-
